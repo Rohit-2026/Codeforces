@@ -1,0 +1,5 @@
+n,c1,c2=input().split()
+n=int(n)
+s=input()
+r=''.join(c2 if x!=c1 else c1 for x in s)
+print(r)
